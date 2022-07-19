@@ -11,14 +11,8 @@ class Usuario:
         self.apellido = apellido  
         self.direccion = direccion
       
-    
     def registro1(self):
        return ({"Nombre":self.nombre,"Apellido":self.apellido,"Cédula":self.cédula,"Dirección":self.direccion})
-
-
-    
-
-
 
 class Usuario_comun(Usuario):
     def __init__(self, nombre, apellido, dirección, cédula, clave, estado="True"):
