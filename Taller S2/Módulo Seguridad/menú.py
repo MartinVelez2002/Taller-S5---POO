@@ -62,7 +62,6 @@ while alternativa != "3":
                             os.system("cls")
         
                         
-
                     elif alternativa1 == "2": 
                         os.system("cls")
                         print("*"*70)
@@ -79,21 +78,13 @@ while alternativa != "3":
                         input("Presione una tecla para continuar...")
                         os.system("cls")
         
-                       
-
                     elif alternativa1 == "3": 
                         os.system("cls")
                         for metod in Usuario.usuario:
-                            metod["Nombre"] = "Alejandro"
+                            metod["Nombre"] = "Armando"
                             print(metod)
 
-                         
-                    
-                    elif alternativa1 == "4":
-                        pass
-                    
-                        
-
+                          
     if alternativa == "2":
         alternativa1 = ""
         while alternativa1 != "2":
@@ -113,8 +104,6 @@ while alternativa != "3":
                         print("Correo no válido")
                         os.system("cls")
                     
-                
-                
                 while True:
                     cédula = input("Ingresar clave: ")
                     ced = Validar.Validarced(cédula)
@@ -124,7 +113,6 @@ while alternativa != "3":
                             time.sleep(0.6) 
                             os.system("cls")
                             break
-
 
                 while alternativa1 != "5":
                 
@@ -145,8 +133,6 @@ while alternativa != "3":
                             time.sleep(0.5)
                             os.system("cls")
         
-
-
                     elif alternativa1 == "2":
                         os.system("cls")
                         print("*"*70)
@@ -168,22 +154,9 @@ while alternativa != "3":
                     elif alternativa1 == "3":
                         pass
                         
-
-
-                    elif alternativa1 == "4":
-                        pass
-                    elif alternativa1 == "5":
-                        print("Salir del ")
-
-
-
-
-
+      
     if alternativa == "3":
         os.system("cls")
         print("Saliendo del módulo...")
         time.sleep(1)        
         os.system("cls")           
-                        
-
-
